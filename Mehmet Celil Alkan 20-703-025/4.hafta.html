@@ -1,0 +1,239 @@
+<html>
+    <head>
+        <title>
+            MEHMET CELIL ALKAN 20-703-025   
+        </title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="web,bts117,web tasarım,ders,mersin,html,üniversite,alkan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css"> 
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+    </head>
+
+    <body id="basadon">
+
+        <div class="menu" style="margin: 0px -35px;">
+            <ul>
+                <div><a href="index.html"   id="anasayfa">Anasayfa</a></div>
+                <div><a href="1.hafta.html" id="ilk" target="blank">1.HAFTA</a></div>
+                <div><a href="2.hafta.html" id="ikinci" target="blank">2.HAFTA</a></div>
+                <div><a href="3.hafta.html" id="ucuncu" target="blank">3.HAFTA</a></div>
+                <div><a href="4.hafta.html" id="dorduncu" target="blank">5.HAFTA</a></div>
+                <div><a href="5.hafta.html" id="besinci" target="blank">6.HAFTA</a></div>
+                <div><a href="6.hafta.html" id="altinci" target="blank">7.HAFTA</a></div>
+    
+    
+            </ul>
+            </div>
+        
+        <main style="margin-left: 230px; text-align: justify;">
+
+                <h2 style="text-align: center">HTML'DE HEAD BÖLÜMÜ</h2>
+                    <p>
+                        < head > ile başlayıp < / head > ile biten bu bölüm Browsera hitap eder. HTML sayfasının hangi dilde metin içerdiği, Browserin < title > başlık kısmı gibi arama motoruna hitap eden kodlar bu bölümde yer alır.
+                    </p>
+
+                <h3>1. < title > < / title > ETİKETİ</h3>
+                    <p>
+                        Title tag web sitesinin başlığını belirtir.
+                    </p>
+
+                <h3>2. < style > ETİKETİ</h3>
+                    <p>
+                        < style > </style > etiketi HTML belgesi için stil bilgisi olarak kullanılır. İçerisinde HTML öğelerinin nasıl çalışıp, görüntüleneceklerini belirtebiliriz.
+                    </p>
+                    
+                <h3> 3.	< style ></style> ARKA PLAN RENGİNİ DEĞİŞTİRME</h3>
+                    <p>
+                        < style ></style><br/>
+                        Body<br/>
+                        {<br/>
+                        Background-color: #d24dff<br/>
+                        }<br/>
+                        < / style ><br/>
+                    </p>
+
+                <h3>SCRİPT ETİKETİ</h3>
+                    <p>
+                        < script ></script> etiketi istemci tarafında çalıştırılacak bir script tanımlar. (JavaScript gibi.)
+                    </p>
+                    <p>
+                        < script ></script> etiketi içerisinde “script” ifadeleri olabileceği gibi  “src” özelliği ile harici bir script dosyası çağırılabilir. Javascript ile HTML belgelerimizi statik bir yapıdan dinamik bir yapıya geçirebiliriz. Değişen içerikler, form kontrolleri vb.
+                    </p>
+
+                <h3>NOSCRİPT ETİKETİ</h3>
+                    <p>
+                        Noscript Etiketi, Javascript desteklemeyen eski veya yetersiz web tarayıcıları için geliştirilmiş bir HTML etiketidir. Ziyaretçinin web tarayıcısı Javascript’i desteklemiyorsa veya tarayıcının Javascript desteği kapalıysa bizim belirttiğimiz kodlar işlenir. Eğer bu şartlardan biri sağlanmıyorsa belirttiğimiz kodlar işlenmez, görmezden gelinir ve javascript kodları çalışmaya devam eder.
+                    </p>
+                    <p>
+                        Eğer noscript etiketini body içinde kullandıysak etiketlerin arasına script etiketi hariç dilediğimiz herhangi bir HTML etiketini yazabiliriz. Bu şekilde ziyaretçiye bir bilgilendirme mesajı gösterebilir veya onu başka bir sayfaya yönlendirebiliriz.
+                    </p>
+
+                <h3>HTML de RENKLER</h3>
+
+                    <ul>
+                        <li>RGB</li>
+                            <p>
+                                HTML’de, aşağıdaki formülü kullanarak bir renk RGB değeri olarak belirtilebilir. RGB açılımı Red Green Blue renklerinin kısaltılmış halidir ve bu renklerin karışımı ile renkleri elde ederiz. <br/>
+                                -	rgb(red, green, blue) 
+
+                            </p>
+
+                        <li>HEX DEĞERİ</li>
+                            <p>
+                                HTML’de, onaltılık değerler kullanılarak bir renk belirtilebilir. Bunlara HEX değeri deriz ve programcıların en çok kullandığı renk değeridir. <br/>
+                                #rrggbb
+                            </p>
+
+                        <li>HSL DEĞERİ</li>
+                            <p>
+                                Kırmızı (R), Yeşil (G) ve Mavi (B) renkler ayrı ayrı 0 ...100 arası kayar noktalı sayı değeri alarak üstteki örnekteki gibi gösterilir.
+                            </p>
+                            <p>
+                                En fazla renk değeri: rgb(100%, 100%, 100%) = 1,000,000
+                            </p>
+                            <p>
+                                Teorik olarak yüzde değerleri kayar noktalı değer oldukları için her üç renk için noktadan sonra 0 ile 9 arası değer alabildikleri düşünüldüğünde en fazla renk değeri miktarına üç farklı renk için 3 sıfır daha eklenerek 1.000.000.000 elde edilebilir. Fakat böyle bir değerin veya hassasiyetin elle kontrolü mümkün olamayacağı için pek pratik olmayacaktır.
+                            </p>
+                    </ul>
+
+                <h2>HTML'DE İKON EKLEME (.İCO)</h2>
+                    <p>
+                        Başlık ikonu olarak kullanacağımız görselin dosya tipi “.ico”  (Farklı görsel dosyalarda kullanabiliriz ancak .ico kullanmak daha iyi.) olmalıdır. Başlık ikonu yapacağımız görseli sitemizin ana klasörüne ya da belirli bir klasörüne atarak kullanabiliriz.
+                    </p>
+                    <p>
+                        < link rel = "Shortcut Icon"  href = " ico.ico "  type ="image / x-icon" >
+                    </p>
+                    <p>
+                        Yukarıda .ico adını verdiğim bir ikon görselini site ikonu olarak kullandım. ikon dosyası web sitesinin ana klasöründe bulunduğunu varsaydığım için bu şekilde kullandım.
+                    </p>
+
+                <h2>HTML'DE DOSYA ADI İLE İKON EKLEME</h2>
+                    <p>
+                        < link rel = " Shortcut Icon "  href = "görseller / ico.ico  "  type= "image / x-icon" >
+                    </p>
+                    <p>
+                        İkon dosyası farklı bir klasörde olursa kodu yukarıda ki gibi yazarız.
+                    </p>
+
+                <h2>SAYFA DIŞINA LİNK VERME</h2>
+                    <p>
+                        Bir HTML belgesinde bağlantı (link) verme işini   < a href = "adres" >   koduyla yapmaktayız. Link verdiğimiz kelime ortaya gelecek şekilde yine   < / a >   ile bağlantı verme işini sonlandırmaktayız. Bu şekilde başka bir sayfaya ya da web sitesine bağlantı veririz. Aynı zamanda bu yolla bir müzik dosyası, bir zip arşivi vb. de link vermeniz mümkün.
+                    </p>
+                    <p>
+                        < a href =" http :// herhangisiteismi . web . tr / " >herhangisiteye gitmek için tıklayınız (Sayfa)< / a >
+                    </p>
+
+                <h2>SAYFA İÇİ BAĞLANTI VERME</h2>
+                    <p>
+                        Bazı durumlarda (özellikle uzun sayfalarda) sayfanın belirli bir bölümüne link vermek gerekebilir. Bunun için name="…" özelliğinden yararlanırız. Böyle durumlarda href="…" özelliği kullanılmaz.
+                    </p>
+                    <p>
+                        Öncelikle sayfa içinde bağlantı vereceğimiz yere giderek    < a name = " etiket " >  < / a >     şeklinde yer imimizi belirtiyoruz. Şimdi bu işarete link vermek için sayfa içerisinde başka bir yerde (en aşağıda ya da en yukarıda olabilir)      < a hre f= "# etiket " > (metin) < / a >       şeklinde işaretlediğimiz yere link veriyoruz.
+                    </p>
+                    <p>
+                        < a href = "# alkan" > X başlığı < / a >
+                    </p>
+
+                <h2>RESİMLERE BAĞLANTI ÖZELLİĞİ KAZANDIRMA</h2>
+                    <p>
+                        Sayfadaki resimlere link vermek için:
+                    </p>
+                    <p>
+                        < img src ="url" width =" #" height =" #">  tag’ı < a href >... < / a > tag’ları arasına yazılır. (# = piksel olarak verilen değer)
+                    </p>
+                    <p>
+                        < html ><br/>
+                        < head > < / head ><br/>
+                        < body ><br/>
+                        < a href  = "herhangi. html" >  < img src = "resim8. jpg" width =200 height =200  border ="0" ><br/> 
+                        < / a >  < / body >  <  / html ><br/>
+                    </p>
+                    <p>
+                        Resmin üzerine gelindiğinde bir el işareti(link işareti) görüntülenecek, kullanıcı tek tıklama yaptığında, herhangi.html dosyası web sayfasında görüntülenecektir.
+                    </p>
+
+                <h2>SCROLLBAR (KAYDIRMA ÇUBUĞU)</h2>
+                    <p>
+                        HTML de yatay ve dikey kaydırma çubuklarını (scroll bars) ekranda göstermek,ekrana eklemek için  “style” ın   “overflow”(taşma) özelliğini kullanabiliriz.
+                        Aşağıda örnek kodlar ile CSS “overflow” özelliğinin nasıl kullanıldığını gösterdim;
+
+                    </p>
+                    
+                    <ul>
+                        <li>
+                            Overflow: visible nedir: <br/>
+                            Kaydırma çubuğu özelliği kazandırmak istemezseniz, bulunduğunuz alanda yazılarınız taşma yapacaktır. “visible” kullanabilirsiniz. <br>
+                            style="overflow: visible;"
+                        </li><br>
+                        <li>
+                            Overflow: hidden nedir: <br/>
+                            Kaydırma çubuklarını görmek istemezseniz taşma olmayacak kaplanan alan kadar ekranda görecek ve yazınızın devamı ekranda olmayacaktır. “hidden” kullanabilirsiniz. <br>
+                            style="overflow: hidden;"
+                        </li><br>
+                        <li>
+                            Overflow: scroll ne iş yapar: <br/>
+                            Kaydırma çubuklarını görmek isterseniz ekranda taşma olmasa da kalacak şekilde, “scroll” kullanabilirsiniz.<br>
+                            style="overflow: scroll;"
+                        </li><br>
+                        <li>
+                            Overflow: auto ne işe yarar:<br/>
+                            Kaydırma çubuklarını taşma olduğunda görmek isterseniz, “auto” kullanabilirsiniz.<br>
+                            style="overflow: auto;"
+                        </li><br>
+                        <li>
+                            Overflow-x: ne işe yarar:<br/>
+                            Sadece yatay kaydırma çubuğu özelliğini ifade eder.<br>
+                            style="overflow-x: auto;"
+                        </li><br>
+                        <li>
+                            Overflow-y: ne işe yarar:<br/>
+                            Sadece dikey kaydırma çubuğu özelliğini ifade eder.	<br>
+                            style="overflow-y: auto;"
+                        </li><br>
+                    </ul>
+
+                <h2>PARAGRAF BİÇİMLENDİRME</h2>
+                    <p>
+                        HTML dosyamızdaki metinleri biçimlendirirken (kalınlık, sağa yatık yazma, vurgu vb.) çeşitli kodlardan yararlanırız. Tüm metin biçimlendirme çeşitleri ise aşağıdaki örnekte verilmiştir ( hepsi < > parantezleri içerisinde olmalıdır.).
+                    </p>
+                    <p>
+                        b= KALIN YAZAR <br/>
+                        i= İTALİK YAZAR <br/>
+                        u= ALTI ÇİZGİLİ YAZAR <br/>
+                        del= ÜSTÜ ÇİZİLİ YAZAR <br/>
+                        sup= ÜST HİZADA YAZI YAZMAK<br/>
+                        sub= ALT HİZADA YAZI YAZMAK<br/>
+                        big= BÜYÜK YAZI<br/>
+                        small= KÜÇÜK YAZI<br/>
+                    </p>
+
+                <h2>RESİMLERE ÇERÇEVE EKLEME</h2>
+                    <p>
+                        Resimlere çerçeve eklemek için border=”çerçeve kalınlığı” parametresini ekliyoruz <br/>
+                        < img src = "lamborghinim.jpg" border ="5" / >
+                    </p>
+                
+                <h2>HTML İÇİN (img) ALT ÖZELLİĞİ</h2>
+                    <p>
+                        Görüntü yüklenmez ise, resim yerine gösterilecek alternatif metini belirtir.<br/>
+                        Alt özelliği için kurallar:<br/>
+                        Görüntü ile ilgili bir açıklama olmalıdır.<br/>
+                        Bağlantı oluşturulmuşsa, bağlantının nereye gittiği açıklanabilir.<br/>
+                        Görüntü sadece görsel amaçla ise alt="…." kullanırız<br/>
+
+                    </p>
+
+
+
+
+
+                <a href="#basadon" style=" margin: 30px 0px; text-decoration: none; font-size: large;" >Başa Dön</a>
+                
+            <p style="text-align: center;">4</p>
+
+
+
+        </main>
+    </body>
+</html>

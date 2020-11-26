@@ -1,0 +1,62 @@
+body{
+    background-image:url(duvarkagiti.jpg);
+    color: rgba(255, 255, 255, 0.699);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu{width: 20%;}
+
+.menu ul{
+    list-style: none;
+    position: fixed;}
+
+.menu ul div a{       
+        color: rgba(23, 245, 215, 0.842);
+        font: 20px verdana arial;
+        display: block;
+        text-decoration: none;
+        padding: 25px 20px;
+        background-color: rgb(55, 57, 61);
+        margin-bottom: 2px;
+        float: left;
+        padding-right: 100px;                   
+}
+
+
+
+h1,h2{
+    color: rgb(13, 99, 228);
+}
+
+h3,h4{
+    color: rgb(13, 132, 230);
+}
+
+h5,h6{
+    color: rgb(13, 192, 216);
+}
+
+#anasayfa{border-left: 9px solid rgba(13, 17, 226, 0.712);}
+#anasayfa:hover{background-color: rgba(13, 17, 226, 0.712); border-left: 5px;}
+
+#ilk{border-left: 5px solid rgba(7, 218, 196, 0.712);}
+#ilk:hover{background-color: rgba(7, 218, 196, 0.712); border-left: 5px;}
+
+#ikinci:hover{background-color:rgba(255, 0, 0, 0.747); border-left: 5px;}
+#ikinci{border-left: 5px solid rgba(255, 0, 0, 0.747);}
+
+#ucuncu:hover{background-color:rgba(230, 16, 115, 0.774); border-left: 5px;}
+#ucuncu{border-left: 5px solid rgba(230, 16, 115, 0.774);}
+
+#dorduncu:hover{background-color:rgba(109, 7, 204, 0.733); border-left: 5px;}
+#dorduncu{border-left: 5px solid rgba(109, 7, 204, 0.733);}
+
+#besinci:hover{background-color:rgba(119, 218, 21, 0.719); border-left: 5px;}
+#besinci{border-left: 5px solid rgba(119, 218, 21, 0.719);}
+
+#altinci:hover{background:rgba(255, 140, 0, 0.719); border-left: 5px;}
+#altinci{border-left: 5px solid rgba(255, 140, 0, 0.719);}
+
+#yedinci:hover{background-color:rgba(212, 226, 17, 0.767); border-left: 5px;}
+#yedinci{border-left: 5px solid rgba(212, 226, 17, 0.767);}
+

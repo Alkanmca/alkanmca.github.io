@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>
+            MEHMET CELIL ALKAN 20-703-025   
+        </title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="web,bts117,web tasarım,ders,mersin,html,üniversite">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css"> 
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="index.html">
+    </head>
+
+    <body>
+        <div class="menu" style="margin: 0px -35px;">
+            <ul>
+                <div><a href="index.html"   id="anasayfa">Anasayfa</a></div>
+                <div><a href="1.hafta.html" id="ilk" target="blank">1.HAFTA</a></div>
+                <div><a href="2.hafta.html" id="ikinci" target="blank">2.HAFTA</a></div>
+                <div><a href="3.hafta.html" id="ucuncu" target="blank">3.HAFTA</a></div>
+                <div><a href="4.hafta.html" id="dorduncu" target="blank">5.HAFTA</a></div>
+                <div><a href="5.hafta.html" id="besinci" target="blank">6.HAFTA</a></div>
+                <div><a href="6.hafta.html" id="altinci" target="blank">7.HAFTA</a></div>
+    
+    
+            </ul>
+            </div>
+
+        <main style="margin-left: 230px; text-align: justify; margin-right: 15px;">
+
+            <h1 style="text-align: center;" id="basadon">WEB TASARIMA GİRİŞ</h1>
+
+            <h2 id="internetinbaslangici">İNTERNETİN BAŞLANGICI</h2>
+               </a> <p>
+                    	1960 yılında Amerika Birleşik Devletleri hükümeti sağlam ve özel bir bilgisayar ağı kurmak için çalışmalara başladı.
+	                1969’da ABD Savunma Bakanlığı ARPANET askeri ağını kurdu.
+	                1971’de Roy Tomlinson ilk maili attı.
+                </P>
+        
+                <p>
+                    1980’lerde Ulusal Bilim Vakfı yeni bir ABD omurgasının finansmanı için toplandı
+                    1985 yılında internet kullanılmaya başlandı.
+                    1990’da Sir Tim-Berners Lee tarafından ilk web sitesi hazırlandı.
+                </p>
+                <p>
+                    1991 world wide web kullanıma sunuldu.
+                    30 Nisan 1993’te CERN tarafından WWW ön eki ile İnternet kamunun ulaşabileceği şekle getirildi.
+                    12 Nisan 1993 tarihinde ODTÜ’den Ankara-Washington arasında kiralık hat ile Türkiye’de ilk İnternet bağlantısı gerçekleşti
+                </p>
+                
+            <h2 id="tcpip">
+                TCP: Transmission Control Protocol
+                IP: İnternet Protocol
+            </h2>
+
+        <img src="tccpip.jpeg" height="170" width="350" alt="TCP/IP" style="float:left; "><br/>
+
+                <p style="margin-left: 380px; margin-right: 40px;">
+                    Birçok protokolün toplandığı bir protokoller ailesidir. Bu referans modeline en çok kullanılan iki protokol ismi verilmiştir.
+                	Protokol; Cihazlar arası iletişimde kullanılan iletişim kurallarını belirleyen ağ dilleridir. Her bir protokolün ayrı görevi vardır.
+                </p><br/><br/><br/><br/>
+                
+
+            <h3>TCP / IP Mimarisi ve Katmanları</h3>
+               
+                <h4>1. Uygulama Katmanı (Application Layer)</h4>
+                <p> 
+                    Bu katmanda veriyi göndermek isteyen uygulama ve kullandığı dosya biçimi bulunarak gönderilen verinin türüne göre farklı protokoller çalıştırılır (HTTP, SMTP, FTP, Telnet, NNTP, HTTPS)
+                </p>
+              
+                <h4>2. Ulaşım Katmanı (Transport Layer)</h4>
+                <p>                    
+                    TCP ve UDP ulaşım katmanı protokolleri, bir üst katmandan gelen veriyi paketleyip bir alt katmana gönderir. Eğer veri bir seferde gönderilmeyecek kadar uzunsa, alt katmana verilmeden önce parçalara ayrılır. Her birine sıra numarası verilir. Bu işlemleri genelde TCP protokolü yapar. UDP protokolü daha çok sorgulama amaçlı kullanılmaktadır.
+                </p>
+
+                <h4>3. Yönlendirme Katmanı</h4>
+                <p>
+                    Yönlendirme katmanında tanımlı IP ve ICMP protokolleri, bir üst katmandan gelen segmentleri alıcıya, uygun yoldan ve hatasız ulaştırmakla yükümlüdür. Bu amaçla IP katmanında gelen segmentlere özel bir IP başlık bilgisi eklenir. ICMP protokolüüzerinden gönderilir.
+                </p>
+
+                <h4>4. Fiziksel Katmanı</h4>
+                <p>
+                    Bu katmanda herhangi bir protokol tanımlı değildir. IP başlığı oluşturulmuş bir bilgi hem kaynak bilgisayarın IP’sini, hem de hedef bilgisayarın IP’sini tutar. Fakat yerel ağiçerisinde bilgi transferi yapılacak makineye ulaşmak için makinenin Ethernet kartının MAC ( Media Access Control-Ortama Erişim Adresi ) olarak bilinen donanım adresinin tespit edilmiş olması gerekir.
+                </p>
+
+            
+            <h3>OSI MODELİ</h3>
+        <img src="osimodeli.png" height="200" width="350" alt="OSİ MODELİ TANITIM" style="float: left;"><br><br>
+                
+                <p style="margin-left: 380px;">
+                    Open Systems Interconnection (OSI) modeli ISO
+                    (International Organization for Standardization) tarafından geliştirimiştir. Bu modelle, ağ farkındalığına sahip cihazlarda çalışan uygulamaların birbirleriyle nasıl iletişim kuracakları tanımlanır.
+                </p><br/><br><br/>
+                
+                
+
+            <h4>Fiziksel Katman ( Physical Layer )</h4>
+                <p>
+                    Bu katmanda tanımlanan bir protokol çalışmaz, ilgili web sitesine ulaşmak istediğimizde gönderdiğimiz istek Ağ Kartı (Ethernet), Anahtar Cihazı (Switch) ve ilgili Ağ (Network) cihazı tarafından analog sinyaller dijitale çevriliyor ve serüvenimiz başlıyor.
+                </p><br/>
+                <br/>
+                <h4 >Veri Hattı Katmanı ( Data Link )</h4>
+                <p>
+                    Fiziksel olan istemin hangi data taşıma yöntemiyle yapılacağının belirlendiği katman burasıdır. Bu katmanda MAC adresleme yapılır ve datanın taşıma kuralı belirlenir. Token Ring, Frame Relay gibi.
+                </p>
+
+            <h4>Network Katmanı ( Network Layer )</h4>
+                <p>           
+                    Bu katman artık datanın paketlenmiş hale gelmesi ve routing işleminin yapıldığı katmandır. Routerlar için L3 denildiğini veya routing işlemi yapan switchlere L3 switch dendiğini duymuşsunuzdur. İşte o Layer 3(Katman) tanımı burdan gelmektedir. Bu katmanda artık paketimiz routing(Yönlendirme) işlemi de yapılarak bir üst katmana gönderilmeye hazır hale gelir.
+                </p>
+
+                <h4>Taşıma Katmanı ( Transport Layer )</h4>
+                <p>  
+                    Bu katman artık TCP /IP paketlerini özelde ise bizim paketimizin karşı adrese güvenle gitmesini sağlayan ve gidemeyen paketlerin gidemediği bilgisinin tutulduğu gerektiğinde ise yok edildiği katmandır. Adının da hakkını verdiği ve datanın nakil edildiği, taşındığı katmandır.
+                    TCP veya UDP gibi protokoller bu katmanda çalışırlar.
+                </p>
+
+            <h4>Oturum Katmanı ( Session Layer )</h4>
+                <p> 
+                    İletişim kuran bilgisayar server veya bilgisayar arasındaki iletişimin session halini aldığı ve oturumların kapanabileceği veya giriş yapılabilecek olan katman burasıdır.
+                </p>
+
+            <h4>Sunum Katmanı ( Presentation Layer )</h4>
+                <p>  
+                    Bu katmanda artık ilgili dökümanlar her iki bilgisayarda da okunabilir hale gelmiştir, mpeg jpg veya png gibi formatların anlaşılabileceği alandır. Ayrıca bu katmanda şifreleme algoritma belirleme gibi yöntemler çalışabilir.
+                </p>
+
+            <h4>Uygulama Katmanı ( Application Layer)</h4>
+                <p>	
+                    Artık paketimiz en üst katmana geldi, bu katmandan sonra data artık başka bir layer üzerine aktarılmaz, son gelinecek katmandır ve uygulamalar bu katman üzerinde haberleşir. Örneğin: http, ftp, telnet gibi uygulamaların haberleştiği yer burasıdır.
+                </p>
+
+                <br/>
+                <br/>
+                
+            
+                <a href="#basadon" style=" margin: 30px 0px; text-decoration: none; font-size: large;" >Başa Dön</a>
+                
+                <p style="text-align: center;">1</p>
+
+            </main>
+    </body>
+
+</html>
